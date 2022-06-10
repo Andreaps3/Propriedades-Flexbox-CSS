@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamnetos - Align-content</title>
+
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;            
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item {
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align:center ;
+            color: white;
+            
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>Stretch</p>
+    <div class="container stretch">
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Pers</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">Deinha Deia P</div>
+        <div class="item">Deinha Deia</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Pereira dos Santos, Agente Técnico III - SENAC, Atua na coordenação de graduação.</div>
+        <div class="item">Andrea Déa Pereira</div>
+        <div class="item">Andrea Santos</div>
+        <div class="item">Andrea Déa Pers</div>
+    </div>
+
+    <p>Flex-Start</p>
+    <div class="container flex-start">
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Pers</div>
+    </div>
+
+    <p>Flex-End</p>
+    <div class="container flex-end">
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Pers</div>
+    </div>
+
+    <p>Space-Around</p>
+    <div class="container space-around">
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Pers</div>
+    </div>
+
+    <p>Space-Between</p>
+    <div class="container space-between">
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Desenvolvedora Fullstack . Formada em ADS</div>
+        <div class="item">Andrea Déa Pers</div>
+    </div>
+
+
+</body>
+</html>
